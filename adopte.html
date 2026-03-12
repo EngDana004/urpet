@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <title>UrPet-Adopt</title>
+</head>
+<body>
+
+  <video autoplay muted loop id="background-video">
+    <source src="https://motionbgs.com/media/1721/hello-kitty-with-friends.960x540.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+<header>
+    <div class="logo-container">
+  <img src="pet2.jpg" alt="UrPet Logo" class="logo">
+</div>
+    <nav>
+        <ul>
+            <li><a href="file:///C:/Users/DanaM/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Homepage.html">Home</a></li>
+            <li><a href="file:///C:/Users/DanaM/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/ContactUs.html">Contact Us</a></li>
+            <li><a href="file:///C:/Users/DanaM/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/aboutus.html">About Us</a></li>
+            <li><a href="file:///C:/Users/DanaM/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/adopte.html">Adopt</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+<section id="adopt">
+
+<form method ="post" action = "file:///C:/Users/DanaM/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/adopte.html">
+ <p class="section-title"><strong>Adopter Info</strong></p>
+            <p>
+                <label for="first_name">First Name:
+                    <input type="text" id="first_name" name="first_name" required placeholder="Enter your first name" minlength="2" maxlength="30" pattern="[A-Za-z]+" title="Please enter only letters" />
+                </label>
+            </p>
+
+            <p>
+                <label for="last_name">Last Name:
+                    <input type="text" id="last_name" name="last_name" required placeholder="Enter your last name" minlength="2" maxlength="30" pattern="[A-Za-z]+" title="Please enter only letters" />
+                </label>
+            </p>
+
+            <p>
+                <label for="birth">Date of birth:
+                    <input type="date" id="birth" name="birth" required</label>
+            </p>
+
+
+            <p>
+                <label for="mobile">Mobile Number:
+                    <input type="tel" id="mobile" name="mobile" required placeholder="Enter your mobile number" pattern="[0-9]{10}" title="Please enter a valid 10-digit mobile number" />
+                </label>
+            </p>
+
+            <p>
+                <label for="email">Email Address:
+                    <input type="email" id="email" name="email" required placeholder="Enter your email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email address" />
+                </label>
+            </p>
+            <p>
+                <label>have you ever adopted a pet?</label><br>
+                <label>yes
+                    <input name="det" type="radio" value="yes" required />
+                </label>
+
+                <label>no
+                    <input name="det" type="radio" value="no" required />
+                </label>
+            </p>
+
+<p class="section-title"><strong>pet Info</strong></p>
+
+            <p>
+                <label for="ani">pet type:
+                    <select name="ani" id="ani" required>
+                        <option value="cat" >cat</option>
+                        <option value="rabbit">rabbit</option>
+                        <option value="turtle">turtle</option>
+                        <option value="golden fish">fish</option>
+                        <option value="hamster">hamster</option>
+                        <option value="parrot">parrot</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label for="ani">pet age:
+                    <select name="age" id="age" required>
+                        <option value="abv" >above 6 months</option>
+                        <option value="blw">below 6 months</option>
+                    </select>
+                </label>
+            </p>
+
+<label for="adoptionRequirements">Terms and Conditions <br>
+<textarea id="adoptionRequirements" readonly>
+1. The adopter must not have a prior criminal record.
+2. The adopter must be financially capable of caring for the pet and meeting its needs.
+3. If the adopter cannot keep the pet, it must be returned to the adoption center.
+4. The adopter must be at least 15 years old.
+</textarea>
+</label>
+<label>
+        <input type="checkbox" id="agreeTerms"> I agree to the terms and conditions
+    </label>
+
+            <p>
+                <input type="submit" value="Send">
+                <input type="reset" value="Clear">
+            </p>
+</form>
+
+<aside id="tips">
+    <h3>Adoption Tips</h3>
+    <ul>
+        <li>Ensure your home is safe for your new pet.</li>
+        <li>Provide fresh food and clean water daily.</li>
+        <li>Schedule regular visits to the veterinarian.</li>
+        <li>Check our other pets available for adoption.</li>
+    </ul>
+</aside>
+
+</section>
+
+</section>
+
+     <footer>
+        <p>All rights reserved &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
