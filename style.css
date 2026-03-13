@@ -43,6 +43,7 @@ body, html {
     padding: 0;
     width: 100%;
     justify-content: center;
+      font-family: 'Merriweather', serif;
 }
 
 .navbar-nav li {
@@ -51,7 +52,7 @@ body, html {
     background-color:#ffb6c1; 
     border-radius: 5px; 
     padding: 5px 10px;
-            font-family: 'Merriweather', serif;
+
 
 }
 
