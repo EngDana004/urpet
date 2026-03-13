@@ -85,7 +85,7 @@ main {
     text-align: center;
 }
 #contactus {
-    max-width: 600px;
+    width: 350px;
     margin: 1px auto;
     padding: 20px;
     background-color: #fff;
@@ -94,7 +94,7 @@ main {
 }
 
 #adopt {
-    max-width: 600px;
+    max-width: 550px;
     margin: 1px auto;
     padding: 20px;
     background-color: #fff;
@@ -133,6 +133,7 @@ select {
     border-radius: 4px;
     box-sizing: border-box;
     font-size: 14px;
+    resize:none;
 }
 
 /* تنسيق الحقول عند التفاعل معها */
@@ -227,11 +228,13 @@ select {
     color: rgba(156, 170, 108, 0.6);
     margin-top: 0.5px;
 }
+
 #adoptionRequirements {
     background-color: #f9f9f9;
     border: 2px solid #ccc;
     width: 400px;
     height: 143px;
+    resize:none;
     padding: 10px;
     font-family:open-sans;
     font-size: 14px;
