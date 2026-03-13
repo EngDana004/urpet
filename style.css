@@ -312,7 +312,7 @@ footer {
     #contactus form,
     #adopt form,
     #tips {
-        width: 70%; /* كل عنصر ياخذ كامل العرض */
+        width: 100%; /* كل عنصر ياخذ كامل العرض */
         flex: none;
         margin-bottom: 15px;
     }
@@ -341,7 +341,7 @@ footer {
     #contactus form,
     #adopt form,
     #tips {
-        width: 70%;
+        width: 100%;
         flex: none;
         margin-bottom: 15px;
     }
@@ -369,7 +369,8 @@ footer {
 
     #contactus form,
     #adopt form {
-        flex: 2;
+          width: 500px;
+           margin: auto;
     }
 
     #tips {
@@ -399,7 +400,8 @@ footer {
 
     #contactus form,
     #adopt form {
-        flex: 2;
+    width: 500px;
+    margin: auto;
     }
 
     #tips {
