@@ -297,43 +297,86 @@ footer {
     }
 }
 
-/* للأجهزة المتوسطة - من 576px إلى 767.98px */
+/*------------------*/
+/* Media Queries لكل قسم مع توسيط كامل */
+/*------------------*/
+
+/* الهواتف الصغيرة - أقل من 576px */
+@media (max-width: 575.98px) {
+    #home,
+    #contactus,
+    #adopt,
+    #aboutus {
+        padding: 20px;
+        margin: 15px auto 20px auto;  /* فوق 15px، أوسط تلقائي، تحت 20px */
+        width: 95%;
+        font-size: 14px;
+    }
+
+    #contactus,
+    #adopt {
+        display: flex;
+        flex-direction: column; /* فوق بعض على الموبايل */
+        max-width: 100%;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    #contactus form,
+    #adopt form,
+    #tips {
+        width: 100%; /* كل عنصر ياخذ كامل العرض */
+        flex: none;
+        margin-bottom: 15px;
+    }
+}
+
+/* الأجهزة المتوسطة - من 576px إلى 767.98px */
 @media (min-width: 576px) and (max-width: 767.98px) {
     #home,
     #contactus,
     #adopt,
     #aboutus {
-        padding: 30px;
-        margin: 20px auto;           /* أوسط تلقائي */
+        padding: 25px;
+        margin: 20px auto;
         width: 90%;
         font-size: 15px;
     }
 
     #contactus,
     #adopt {
+        display: flex;
+        flex-direction: column; /* فوق بعض */
         max-width: 90%;
         box-shadow: 0 3px 6px rgba(0,0,0,0.1);
-        display: block;              /* الفورم والـ aside فوق بعض */
+    }
+
+    #contactus form,
+    #adopt form,
+    #tips {
+        width: 100%;
+        flex: none;
+        margin-bottom: 15px;
     }
 }
 
-/* للأجهزة الكبيرة - من 768px إلى 991.98px */
+/* الأجهزة الكبيرة - من 768px إلى 991.98px */
 @media (min-width: 768px) and (max-width: 991.98px) {
     #home,
     #contactus,
     #adopt,
     #aboutus {
         padding: 40px;
-        margin: 25px auto;           /* أوسط تلقائي */
+        margin: 25px auto;
         width: 85%;
         font-size: 16px;
     }
 
     #contactus,
     #adopt {
-        max-width: 85%;
-        display: flex;               /* الفورم والـ aside جنب بعض */
+        display: flex;
+        flex-direction: row; /* جنب بعض */
         gap: 25px;
+        max-width: 85%;
     }
 
     #contactus form,
@@ -346,23 +389,24 @@ footer {
     }
 }
 
-/* للشاشات الكبيرة 992px وأكبر */
+/* الشاشات الكبيرة 992px وأكبر */
 @media (min-width: 992px) {
     #home,
     #contactus,
     #adopt,
     #aboutus {
         padding: 50px;
-        margin: 30px auto;           /* أوسط تلقائي */
+        margin: 30px auto;
         width: 70%;
         font-size: 17px;
     }
 
     #contactus,
     #adopt {
-        max-width: 70%;
-        display: flex;               /* الفورم والـ aside جنب بعض */
+        display: flex;
+        flex-direction: row; /* جنب بعض */
         gap: 30px;
+        max-width: 70%;
     }
 
     #contactus form,
@@ -374,7 +418,6 @@ footer {
         flex: 1;
     }
 }
-
 
 .my-table {
     width: 50%;
@@ -405,4 +448,5 @@ footer {
 /* الصف الثالث اللون اللي حطيتيه */
 .my-table tr:nth-child(3) {
     background-color: rgba(156, 170, 108, 0.6);
+
 }
