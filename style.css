@@ -367,7 +367,7 @@ footer {
         max-width: 85%;
     }
 
-   #contactus form,
+    #contactus form,
     #adopt form {
         flex: 2;
     }
@@ -398,7 +398,7 @@ footer {
     }
 
     #contactus form,
-     #adopt form {
+    #adopt form {
         flex: 2;
     }
 
