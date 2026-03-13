@@ -70,15 +70,12 @@ body, html {
     background-color: rgba(156, 170, 108, 0.6);
 }
 
-
-
 main {
     position: relative;
     z-index: 1; 
     padding: 50px 20px;
      color: #5C3317;
-font-family: 'Merriweather', serif;
-
+     font-family: 'Merriweather', serif;
  
 }
 
@@ -88,9 +85,10 @@ font-family: 'Merriweather', serif;
     border-radius: 10px; 
     margin-top: 20px;
     text-align: center;
-font-family: 'Merriweather', serif;
-
+    color: #5C3317;
+    font-family: 'Merriweather', serif;
 }
+
 #contactus {
     width: 350px;
     margin: 1px auto;
