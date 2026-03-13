@@ -367,15 +367,10 @@ footer {
         max-width: 85%;
     }
 
-    #contactus form,
-    #adopt form {
-           width: 100%; /* كل عنصر ياخذ كامل العرض */
-        flex: none;
-        margin-bottom: 15px;
-    }
-
+  #contactus form,
+    #adopt form,
     #tips {
-       width: 100%; /* كل عنصر ياخذ كامل العرض */
+        width: 100%; /* كل عنصر ياخذ كامل العرض */
         flex: none;
         margin-bottom: 15px;
     }
@@ -401,13 +396,8 @@ footer {
         max-width: 70%;
     }
 
-    #contactus form,
-    #adopt form {
-     width: 100%; /* كل عنصر ياخذ كامل العرض */
-        flex: none;
-        margin-bottom: 15px;
-    }
-
+#contactus form,
+    #adopt form,
     #tips {
         width: 100%; /* كل عنصر ياخذ كامل العرض */
         flex: none;
